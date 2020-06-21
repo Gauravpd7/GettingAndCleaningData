@@ -1,0 +1,13 @@
+{
+    "path" : "F:/Coursera/R Projects/Getting and Cleaning Data - Peer Graded Assignment/data/train",
+    "sortOrder" : [
+        {
+            "ascending" : false,
+            "columnIndex" : 1
+        },
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
