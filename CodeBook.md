@@ -56,4 +56,4 @@
 
 1. subject_ID - Identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 2. activity   - Describes the activity that was performed, namely - WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING & LAYING.
-3. Features - The rest of the columns contain the mean and standard deviation related values that were collected for the various features listed in the features dataset.
+3. Features - The rest of the columns contain the mean and standard deviation related values that were collected for the various features listed in the [features dataset](https://github.com/Gauravpd7/GettingAndCleaningData/blob/master/data/UCI%20HAR%20Dataset/features.txt).
