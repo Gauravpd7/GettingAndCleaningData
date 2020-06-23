@@ -27,7 +27,7 @@ colnames(X) <- features[,2]
 mergedData <- cbind(subject,Y,X)
 
 # 2.Subsetting to get data only for means and standard deviations.
-mergedData <- mergedData %>% select(subject_ID,activity_ID,contains("mean"),contains("std"))
+mergedData <- mergedData %>% select(subject_ID,activity_ID,contains("mean()"),contains("std()"))
 
 # 3.Applying descriptive activity labels.
 mergedData$activity_ID <- activities[mergedData$activity_ID,2]
